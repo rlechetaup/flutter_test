@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.7.3 on darwin)" generated="20201111 21:14:14.798" rpa="false">
+<suite id="s1" name="mobileAutomation" source="/Users/rlecheta/tmp/flutter/flutter_count/mobileAutomation.robot">
+<test id="s1-t1" name="Login">
+<kw name="Open Application">
+<arguments>
+<arg>remote_url=http://localhost:4723/wd/hub</arg>
+<arg>udid=82E1AF63-36B5-4CAB-B000-0656F53DE9AD</arg>
+<arg>platformName=iOS platformVersion=13.5</arg>
+<arg>deviceName=iPhone 8</arg>
+<arg>bundleId=br.com.livetouch.helloios</arg>
+<arg>automationName=XCUITest</arg>
+<arg>retryBackoffTime=500</arg>
+<arg>noReset=true</arg>
+</arguments>
+<msg timestamp="20201111 21:14:14.834" level="FAIL">No keyword with name 'Open Application' found.</msg>
+<status status="FAIL" starttime="20201111 21:14:14.834" endtime="20201111 21:14:14.834"></status>
+</kw>
+<status status="FAIL" starttime="20201111 21:14:14.832" endtime="20201111 21:14:14.835" critical="yes">No keyword with name 'Open Application' found.</status>
+</test>
+<status status="FAIL" starttime="20201111 21:14:14.801" endtime="20201111 21:14:14.835"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="mobileAutomation">mobileAutomation</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

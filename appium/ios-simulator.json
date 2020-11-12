@@ -1,0 +1,10 @@
+{
+  "platformName": "iOS",
+  "platformVersion": "13.5",
+  "deviceName": "iPhone 8",
+  "bundleId": "br.com.livetouch.helloios",
+  "automationName": "XCUITest",
+  "udid": "82E1AF63-36B5-4CAB-B000-0656F53DE9AD",
+  "retryBackoffTime": 500,
+  "noReset": true
+}

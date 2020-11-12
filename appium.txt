@@ -1,0 +1,17 @@
+1) Robot
+https://pypi.org/project/robotframework/
+
+sudo pip3 install robotframework-appiumlibrar
+
+xcrun simctl list
+
+-- iOS 13.5 --
+    iPhone 8 (82E1AF63-36B5-4CAB-B000-0656F53DE9AD) (Booted)
+
+xcodebuild -project WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination 'id=82E1AF63-36B5-4CAB-B000-0656F53DE9AD' test
+
+
+---
+pip uninstall robotframework
+
+pip3 install robotframework
